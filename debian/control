@@ -13,6 +13,7 @@ Description: System packages for Scibian HPC clusters
  This metapackage provides all system packages required on all nodes of a
  Scibian HPC cluster.
 Depends:
+ ${misc:Depends},
  acpi-support-base,
  bash-completion,
  bind9-host,
@@ -68,6 +69,7 @@ Description: Libraries for Scibian HPC clusters
  This metapackage provides all software libraries required by scientific
  programs on all Scibian HPC clusters.
 Depends:
+ ${misc:Depends},
  coinor-libclp1,
  libargtable2-0,
  libatlas3-base,
@@ -139,6 +141,7 @@ Description: Development headers for Scibian HPC clusters
  This metapackage provides all devel packages required to compile scientific
  programs on all Scibian HPC clusters.
 Depends:
+ ${misc:Depends},
  autotools-dev,
  coinor-libclp-dev,
  comerr-dev,
@@ -207,6 +210,7 @@ Description: Documentations for Scibian HPC clusters
  This metapackage provides all documentations and examples to develop
  scientific programs on all Scibian HPC clusters.
 Depends:
+ ${misc:Depends},
  asciidoctor-doc,
  bash-doc,
  binutils-doc,
@@ -248,6 +252,7 @@ Description: User packages for Scibian HPC clusters
  This metapackage provides all user packages required on all nodes of all
  Scibian HPC clusters.
 Depends:
+ ${misc:Depends},
  scibian-hpc-base (= ${source:Version}),
  scibian-hpc-libs (= ${source:Version}),
  autoconf,
@@ -303,6 +308,7 @@ Description: System packages for Scibian HPC computes nodes
 Conflicts:
  scibian-hpc-frontend (<= ${source:Version}),
 Depends:
+ ${misc:Depends},
  scibian-hpc-commons (= ${source:Version}),
  collectd,
  slurmd,
@@ -319,6 +325,7 @@ Conflicts:
  slurmd,
  libpam-slurm
 Depends:
+ ${misc:Depends},
  scibian-hpc-commons (= ${source:Version}),
  scibian-hpc-devel (= ${source:Version}),
  scibian-hpc-doc (= ${source:Version}),
@@ -398,6 +405,7 @@ Description: Packages for Scibian HPC graphical nodes
  This metapackage provides all packages required on graphical nodes of
  all Scibian HPC clusters.
 Depends:
+ ${misc:Depends},
  scibian-hpc-compute (= ${source:Version}),
  avogadro,
  cmake-curses-gui,
@@ -436,7 +444,9 @@ Architecture: all
 Description: Packages for Scibian HPC service nodes
  This metapackage provides all packages required on service nodes of
  all Scibian HPC clusters.
-Depends: scibian-hpc-base (= ${source:Version}),
+Depends:
+ ${misc:Depends},
+ scibian-hpc-base (= ${source:Version}),
  iotop,
  parted,
  vim,
@@ -448,7 +458,9 @@ Architecture: all
 Description: Packages for Scibian HPC admin nodes
  This metapackage provides all packages required on admin nodes of
  all Scibian HPC clusters.
-Depends: scibian-hpc-service (= ${source:Version}),
+Depends:
+ ${misc:Depends},
+ scibian-hpc-service (= ${source:Version}),
  devscripts,
  hiera-eyaml,
  mtr-tiny,
