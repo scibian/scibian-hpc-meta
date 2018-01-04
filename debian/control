@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
+Vcs-Git: https://github.com/scibian/scibian-hpc-meta.git
+Vcs-Browser: https://github.com/scibian/scibian-hpc-meta
 
 Package: scibian-hpc-base
 Architecture: all
