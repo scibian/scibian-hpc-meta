@@ -423,7 +423,6 @@ Depends:
  mesa-utils,
  neos,
  neos-slurm-graphical-plugins,
- nvidia-cuda-toolkit,
  nvidia-driver,
  nvidia-kernel-3.16.0-4-amd64,
  nvidia-smi,
