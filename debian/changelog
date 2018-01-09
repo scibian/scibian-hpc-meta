@@ -1,9 +1,9 @@
-scibian-hpc-meta (1.1) UNRELEASED; urgency=medium
+scibian-hpc-meta (1.1) scibian8; urgency=medium
 
   * Remove nvidia-cuda-toolkit from scibian-hpc-graphical: nvidia-cuda-toolkit
     will be eventually packaged as a business application in /opt.
 
- -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 09 Jan 2018 08:25:44 +0100
+ -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 09 Jan 2018 08:28:35 +0100
 
 scibian-hpc-meta (1.0) scibian8; urgency=medium
 
