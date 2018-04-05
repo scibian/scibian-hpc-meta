@@ -410,6 +410,18 @@ Depends:
  xauth,
  xpra
 
+Package: scibian-hpc-container
+Architecture: all
+Description: Packages for Scibian HPC containers
+ This metapackage provides all packages required in containers images
+ of all Scibian HPC clusters.
+Depends:
+ ${misc:Depends},
+ scibian-hpc-commons (= ${source:Version}),
+ scibian-hpc-devel (= ${source:Version}),
+ scibian-hpc-doc (= ${source:Version}),
+ scibian-hpc-base (= ${source:Version}),
+
 Package: scibian-hpc-graphical
 Architecture: all
 Description: Packages for Scibian HPC graphical nodes
