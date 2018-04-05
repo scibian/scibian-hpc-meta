@@ -9,41 +9,53 @@ Vcs-Browser: https://github.com/scibian/scibian-hpc-meta
 
 Package: scibian-hpc-base
 Architecture: all
-Description: System packages for Scibian HPC clusters
- This metapackage provides all system packages required on all nodes of a
- Scibian HPC cluster.
+Description: System packages for Scibian HPC clusters environments
+ This metapackage provides all system packages required in all environments of
+ a Scibian HPC cluster.
 Depends:
  ${misc:Depends},
- acpi-support-base,
  bash-completion,
  bind9-host,
  binfmt-support,
- console-setup,
- cpufrequtils,
  dnsutils,
- dmidecode,
- ethtool,
- finger,
- firmware-linux-nonfree,
  gawk,
  git,
- htop,
- ifenslave-2.6,
- ipmitool,
- keyboard-configuration,
  less,
  libnss-sss,
  libpam-modules,
  libpam-sss,
  libpam-systemd,
- libpmi0,
- linux-image-amd64,
  locales,
  lsb-release,
  lsof,
+ netcat-traditional,
+ strace,
+ sysstat,
+ systemd-sysv,
+
+Package: scibian-hpc-node
+Architecture: all
+Description: System packages for Scibian HPC clusters nodes
+ This metapackage provides all system packages required on all nodes (either
+ virtual or physical) of a Scibian HPC cluster.
+Depends:
+ ${misc:Depends},
+ scibian-hpc-base (= ${source:Version}),
+ acpi-support-base,
+ console-setup,
+ cpufrequtils,
+ dmidecode,
+ ethtool,
+ finger,
+ firmware-linux-nonfree,
+ htop,
+ ifenslave-2.6,
+ ipmitool,
+ keyboard-configuration,
+ libpmi0,
+ linux-image-amd64,
  mcelog,
  munge,
- netcat-traditional,
  ntp,
  ntpdate,
  pciutils,
@@ -58,9 +70,6 @@ Depends:
  slurm-llnl-generic-scripts-plugin,
  ssh,
  sssd,
- strace,
- sysstat,
- systemd-sysv,
  tcpdump
 
 Package: scibian-hpc-libs
@@ -249,8 +258,8 @@ Depends:
 Package: scibian-hpc-commons
 Architecture: all
 Description: User packages for Scibian HPC clusters
- This metapackage provides all user packages required on all nodes of all
- Scibian HPC clusters.
+ This metapackage provides all user packages required in all user environments
+ of all Scibian HPC clusters.
 Depends:
  ${misc:Depends},
  scibian-hpc-base (= ${source:Version}),
@@ -310,6 +319,7 @@ Conflicts:
 Depends:
  ${misc:Depends},
  scibian-hpc-commons (= ${source:Version}),
+ scibian-hpc-node (= ${source:Version}),
  collectd,
  slurmd,
  warewulf-nhc
@@ -329,6 +339,7 @@ Depends:
  scibian-hpc-commons (= ${source:Version}),
  scibian-hpc-devel (= ${source:Version}),
  scibian-hpc-doc (= ${source:Version}),
+ scibian-hpc-node (= ${source:Version}),
  asciidoctor,
  autopoint,
  avogadro,
@@ -445,7 +456,7 @@ Description: Packages for Scibian HPC service nodes
  all Scibian HPC clusters.
 Depends:
  ${misc:Depends},
- scibian-hpc-base (= ${source:Version}),
+ scibian-hpc-node (= ${source:Version}),
  iotop,
  parted,
  vim,
