@@ -309,6 +309,15 @@ Depends:
  tree,
  valgrind,
 
+Package: scibian-hpc-gpgpu
+Architecture: all
+Description: Packages for Scibian HPC clusters GPGPU environments
+ This metapackage provides all packages required in all user environments of
+ all Scibian HPC clusters for using GPGPU.
+Depends:
+ ${misc:Depends},
+ nvidia-smi,
+
 Package: scibian-hpc-compute
 Architecture: all
 Description: System packages for Scibian HPC computes nodes
@@ -430,6 +439,7 @@ Description: Packages for Scibian HPC graphical nodes
 Depends:
  ${misc:Depends},
  scibian-hpc-compute (= ${source:Version}),
+ scibian-hpc-gpgpu (= ${source:Version}),
  avogadro,
  cmake-curses-gui,
  emacs24,
@@ -448,7 +458,6 @@ Depends:
  neos-slurm-graphical-plugins,
  nvidia-driver,
  nvidia-kernel-3.16.0-4-amd64,
- nvidia-smi,
  python-vtk,
  r-cran-lhs,
  r-cran-plotrix,
