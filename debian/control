@@ -424,7 +424,7 @@ Depends:
  neos,
  neos-slurm-graphical-plugins,
  nvidia-driver,
- nvidia-kernel-3.16.0-4-amd64,
+ nvidia-kernel-3.16.0-5-amd64,
  nvidia-smi,
  python-vtk,
  r-cran-lhs,

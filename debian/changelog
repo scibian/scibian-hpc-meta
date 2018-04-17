@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.2) calibre9; urgency=medium
+
+  * update depandancy for scibian-hpc-graphical from nvidia-kernel-3.16.0-4-amd64 to nvidia-kernel-3.16.0-5-amd64
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Tue, 17 Apr 2018 10:34:31 +0200
+
 scibian-hpc-meta (1.1) scibian8; urgency=medium
 
   * Remove nvidia-cuda-toolkit from scibian-hpc-graphical: nvidia-cuda-toolkit
