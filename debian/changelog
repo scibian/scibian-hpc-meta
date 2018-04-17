@@ -1,3 +1,11 @@
+scibian-hpc-meta (1.2sci8) scibian8; urgency=medium
+
+  * Introduce -node package
+  * Introduce -container package
+  * Introduce scibian-hpc-gpgpu
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Tue, 17 Apr 2018 14:44:21 +0200
+
 scibian-hpc-meta (1.1) scibian8; urgency=medium
 
   * Remove nvidia-cuda-toolkit from scibian-hpc-graphical: nvidia-cuda-toolkit
