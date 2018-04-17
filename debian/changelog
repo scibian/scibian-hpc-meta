@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.0sci9) scibian9; urgency=medium
+
+  * Initial Scibian 9 version
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 12 Apr 2018 12:08:09 +0200
+
 scibian-hpc-meta (1.2sci8) scibian8; urgency=medium
 
   * Introduce -node package
