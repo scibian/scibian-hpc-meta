@@ -1,5 +1,5 @@
 Source: scibian-hpc-meta
-Section: admin
+Section: scibian
 Priority: optional
 Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9)
