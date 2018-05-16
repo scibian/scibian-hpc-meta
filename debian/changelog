@@ -1,3 +1,10 @@
+scibian-hpc-meta (2.2sci9) scibian9; urgency=medium
+
+  * Update for Scibian 9 and Debian stretch
+  * Fix package section
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Wed, 16 May 2018 11:36:17 +0200
+
 scibian-hpc-meta (2.1sci9) scibian9; urgency=medium
 
   * Replace nvidia kernel module with meta-package
