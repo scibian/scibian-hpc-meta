@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.1sci9) scibian9; urgency=medium
+
+  * Replace nvidia kernel module with meta-package
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Wed, 16 May 2018 10:37:07 +0200
+
 scibian-hpc-meta (2.0sci9) scibian9; urgency=medium
 
   * Initial Scibian 9 version
