@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.2sci8+nmu1) scibian8; urgency=medium
+
+  * change dependancy to nvidia-kernel-3.16.0-5-amd64 in scibian-hpc-graphical
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 03 May 2018 17:16:49 +0200
+
 scibian-hpc-meta (1.2sci8) scibian8; urgency=medium
 
   * Introduce -node package
