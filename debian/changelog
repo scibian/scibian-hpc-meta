@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.3sci8) scibian8; urgency=medium
+
+  * Use new spank-private-tmp binary package name
+
+ -- Thomas HAMEL <thomas-externe.hamel@edf.fr>  Mon, 25 Jun 2018 18:14:07 +0200
+
 scibian-hpc-meta (1.2sci8+nmu1) scibian8; urgency=medium
 
   * change dependancy to nvidia-kernel-3.16.0-5-amd64 in scibian-hpc-graphical
