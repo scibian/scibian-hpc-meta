@@ -305,7 +305,7 @@ Depends:
  python-setuptools,
  python-yaml,
  slurm-wlm-spank-plugin-oom-score-adj,
- slurm-wlm-spank-plugin-private-tmp,
+ slurm-wlm-spank-plugin-private-tmpdir,
  tree,
  valgrind,
 
