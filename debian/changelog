@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.3sci9) scibian9; urgency=medium
+
+  * Use new spank-private-tmp binary package name
+
+ -- Thomas HAMEL <thomas-externe.hamel@edf.fr>  Fri, 29 Jun 2018 15:00:59 +0200
+
 scibian-hpc-meta (2.2sci9) scibian9; urgency=medium
 
   * Update for Scibian 9 and Debian stretch
