@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.4sci9) scibian9; urgency=medium
+
+  * admin: add: ipxe rom build dependencies
+
+ -- Thomas HAMEL <thomas-externe.hamel@edf.fr>  Tue, 21 Aug 2018 10:35:55 +0200
+
 scibian-hpc-meta (2.3sci9) scibian9; urgency=medium
 
   * Use new spank-private-tmp binary package name
