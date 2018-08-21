@@ -492,6 +492,10 @@ Depends:
  scibian-hpc-service (= ${source:Version}),
  devscripts,
  hiera-eyaml,
+ hpc-config-push,
+ libc6-dev,
+ liblzma-dev,
+ makepasswd,
  mtr-tiny,
  puppet-module-herculesteam-augeasproviders-pam,
  puppet-module-yo61-logrotate,
@@ -505,6 +509,4 @@ Depends:
  puppet-module-puppetlabs-concat,
  puppet-module-puppetlabs-ntp,
  puppet-module-puppetlabs-stdlib,
- hpc-config-push,
- makepasswd,
  screen
