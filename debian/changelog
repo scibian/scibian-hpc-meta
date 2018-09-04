@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.5sci9) scibian9; urgency=medium
+
+  * base: add: scibian-version
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 04 Sep 2018 16:36:00 +0200
+
 scibian-hpc-meta (2.4sci9) scibian9; urgency=medium
 
   * admin: add: ipxe rom build dependencies
