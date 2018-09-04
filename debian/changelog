@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.4sci8) scibian8; urgency=medium
+
+  * Base: Add scibian-version
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 04 Sep 2018 18:10:31 +0200
+
 scibian-hpc-meta (1.3sci8) scibian8; urgency=medium
 
   * Use new spank-private-tmp binary package name
