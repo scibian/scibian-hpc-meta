@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.5sci8) scibian8; urgency=medium
+
+  * Base: Replace scibian-version by scibian-version|calibre-version 
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Thu, 06 Sep 2018 13:46:59 +0200
+
 scibian-hpc-meta (1.4sci8) scibian8; urgency=medium
 
   * Base: Add scibian-version
