@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.6sci9) scibian9; urgency=medium
+
+  * compute,frontend: add: libpmi2-0
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Mon, 08 Oct 2018 13:27:04 +0200
+
 scibian-hpc-meta (2.5sci9) scibian9; urgency=medium
 
   * base: add: scibian-version
