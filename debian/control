@@ -29,6 +29,7 @@ Depends:
  lsb-release,
  lsof,
  netcat-traditional,
+ pv,
  scibian-version,
  strace,
  sysstat,
