@@ -501,6 +501,7 @@ Depends:
  devscripts,
  hiera-eyaml,
  hpc-config-push,
+ ldap-utils,
  libc6-dev,
  liblzma-dev,
  makepasswd,
