@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.9sci9) scibian9; urgency=medium
+
+  * admin: add: ldap-utils 
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Thu, 08 Nov 2018 16:43:11 +0100
+
 scibian-hpc-meta (2.8sci9) scibian9; urgency=medium
 
   * base: add: pv
