@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.10sci9) scibian9; urgency=medium
+
+  * graphical: add: dbus-x11 xfce4-term gnome-icon-theme
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Tue, 13 Nov 2018 18:36:22 +0100
+
 scibian-hpc-meta (2.9sci9) scibian9; urgency=medium
 
   * admin: add: ldap-utils 
