@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.11sci9) scibian9; urgency=medium
+
+  * frontend: add: pyqt5-dev-tools
+
+ -- Thomas Hamel <thomas-t.hamel@edf.fr>  Tue, 27 Nov 2018 15:02:36 +0100
+
 scibian-hpc-meta (2.10sci9) scibian9; urgency=medium
 
   * graphical: add: dbus-x11 xfce4-term gnome-icon-theme
