@@ -398,6 +398,7 @@ Depends:
  povray,
  putty-tools,
  pyqt4-dev-tools,
+ pyqt5-dev-tools,
  pylint,
  python-gnuplot,
  python-pyvtk,
