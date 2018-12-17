@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.12sci9) scibian9; urgency=medium
+
+  * doc: add gdb-doc
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Mon, 17 Dec 2018 15:11:43 +0100
+
 scibian-hpc-meta (2.11sci9) scibian9; urgency=medium
 
   * frontend: add: pyqt5-dev-tools
