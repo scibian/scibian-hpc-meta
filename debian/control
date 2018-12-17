@@ -228,6 +228,7 @@ Depends:
  cmake-doc,
  graphviz-doc,
  gcc-doc,
+ gdb-doc,
  gfortran-doc,
  glibc-doc,
  libargtable2-docs,
