@@ -34,6 +34,7 @@ Depends:
  strace,
  sysstat,
  systemd-sysv,
+ time,
 
 Package: scibian-hpc-node
 Architecture: all
