@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.13sci9) scibian9; urgency=medium
+
+  * base: add time
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Wed, 30 Jan 2019 15:17:54 +0100
+
 scibian-hpc-meta (2.12sci9) scibian9; urgency=medium
 
   * doc: add gdb-doc
