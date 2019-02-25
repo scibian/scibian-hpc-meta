@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.14sci9) scibian9; urgency=medium
+
+  * node: add systemd-coredump
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Mon, 25 Feb 2019 14:05:21 +0100
+
 scibian-hpc-meta (2.13sci9) scibian9; urgency=medium
 
   * base: add time
