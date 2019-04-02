@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.15sci9) scibian9; urgency=medium
+
+  * node: delete: sssd package
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 02 Apr 2019 14:26:35 +0200
+
 scibian-hpc-meta (2.14sci9) scibian9; urgency=medium
 
   * node: add systemd-coredump
