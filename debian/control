@@ -69,7 +69,6 @@ Depends:
  rsyslog,
  rsyslog-relp,
  ssh,
- sssd,
  systemd-coredump,
  tcpdump
 
