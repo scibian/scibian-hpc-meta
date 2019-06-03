@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.8sci8) scibian8; urgency=medium
+
+  * Add slurm-admin-utils on -admin
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Mon, 03 Jun 2019 10:14:20 +0200
+
 scibian-hpc-meta (1.7sci8) scibian8; urgency=medium
 
   * Replace puppet with puppet4 in base
