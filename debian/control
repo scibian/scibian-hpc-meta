@@ -511,4 +511,5 @@ Depends:
  puppet-module-puppetlabs-stdlib,
  hpc-config-push,
  makepasswd,
- screen
+ screen,
+ slurm-admin-utils,
