@@ -337,7 +337,8 @@ Depends:
  slurm-wlm-spank-plugin-oom-score-adj,
  slurm-wlm-spank-plugin-private-tmpdir,
  slurmd,
- warewulf-nhc
+ warewulf-nhc,
+ slurm-unkstep-program
 
 Package: scibian-hpc-frontend
 Architecture: all
