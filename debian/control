@@ -333,7 +333,8 @@ Depends:
  scibian-hpc-node (= ${source:Version}),
  collectd,
  slurmd,
- warewulf-nhc
+ warewulf-nhc,
+ slurm-unkstep-program
 
 Package: scibian-hpc-frontend
 Architecture: all
