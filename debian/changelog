@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.9sci8) scibian8; urgency=medium
+
+  * Compute: Add: slurm-unkstep-program
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Fri, 21 Jun 2019 11:14:09 +0200
+
 scibian-hpc-meta (1.8sci8) scibian8; urgency=medium
 
   * Add slurm-admin-utils on -admin
