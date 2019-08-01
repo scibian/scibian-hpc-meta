@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.17sci9) scibian9; urgency=medium
+
+  * node: add: opa-basic-tools 
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 01 Aug 2019 13:14:07 +0200
+
 scibian-hpc-meta (2.16sci9) scibian9; urgency=medium
 
   * compute: add: slurm-unkstep-program
