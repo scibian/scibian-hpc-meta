@@ -71,7 +71,8 @@ Depends:
  ssh,
  systemd-coredump,
  opa-basic-tools,
- tcpdump
+ tcpdump,
+ kmod-ifs-kernel-updates
 
 Package: scibian-hpc-libs
 Architecture: all
