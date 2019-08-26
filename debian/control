@@ -527,4 +527,5 @@ Depends:
  puppet-module-puppetlabs-concat,
  puppet-module-puppetlabs-ntp,
  puppet-module-puppetlabs-stdlib,
- screen
+ screen,
+ slurm-admin-utils
