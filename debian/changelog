@@ -1,4 +1,10 @@
-scibian-hpc-meta (2.18sci9) ; urgency=medium
+scibian-hpc-meta (2.19sci9) scibian9; urgency=medium
+
+  * node: del: kmod-ifs-kernel-updates 
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 27 Aug 2019 09:37:49 +0200
+
+scibian-hpc-meta (2.18sci9) scibian9; urgency=medium
 
   * node: add: kmod-ifs-kernel-updates
     admin: add: slurm-admin-utils
