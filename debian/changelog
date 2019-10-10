@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.20sci9) scibian9; urgency=medium
+
+  * node: del: opa-basic-tools 
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Wed, 09 Oct 2019 15:54:51 +0200
+
 scibian-hpc-meta (2.19sci9) scibian9; urgency=medium
 
   * node: del: kmod-ifs-kernel-updates 
