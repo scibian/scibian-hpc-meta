@@ -70,7 +70,6 @@ Depends:
  rsyslog-relp,
  ssh,
  systemd-coredump,
- opa-basic-tools,
  tcpdump,
 
 Package: scibian-hpc-libs
