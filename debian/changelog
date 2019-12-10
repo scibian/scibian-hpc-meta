@@ -1,3 +1,9 @@
+scibian-hpc-meta (1.10sci8) scibian8; urgency=medium
+
+  * Replace nvidia-kernel-3.16.0-5-amd64
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Tue, 10 Dec 2019 10:05:21 +0100
+
 scibian-hpc-meta (1.9sci8) scibian8; urgency=medium
 
   * Compute: Add: slurm-unkstep-program
