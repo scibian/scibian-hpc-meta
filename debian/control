@@ -135,7 +135,7 @@ Depends:
  libqt5gui5,
  libqwt6abi1,
  libqwtmathml6abi1,
- libscalapack-openmpi2.0
+ libscalapack-openmpi2.0,
  libtbb2,
  libtool
 
