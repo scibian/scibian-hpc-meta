@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.21sci10) scibian10; urgency=medium
+
+  * New release for scibian10
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 11 Feb 2020 11:36:01 +0100
+
 scibian-hpc-meta (2.20sci10) scibian10; urgency=medium
 
   * New release for scibian10
