@@ -433,6 +433,7 @@ Depends:
  scibian-hpc-devel (= ${source:Version}),
  scibian-hpc-doc (= ${source:Version}),
  scibian-hpc-base (= ${source:Version}),
+ slurm-client
 
 Package: scibian-hpc-graphical
 Architecture: all
