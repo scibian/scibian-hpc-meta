@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.21sci9) scibian9; urgency=medium
+
+  * container: add: slurm-client
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Wed, 08 Apr 2020 15:56:46 +0200
+
 scibian-hpc-meta (2.20sci9) scibian9; urgency=medium
 
   * node: del: opa-basic-tools 
