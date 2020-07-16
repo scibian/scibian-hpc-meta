@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.22sci9) scibian9; urgency=medium
+
+  * Add slurm spank and scripts packages to -container
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Thu, 16 Jul 2020 17:34:13 +0200
+
 scibian-hpc-meta (2.21sci9) scibian9; urgency=medium
 
   * container: add: slurm-client
