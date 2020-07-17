@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.22sci10) scibian10; urgency=medium
+
+  * Add slurm packages to -container
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Fri, 17 Jul 2020 09:48:49 +0200
+
 scibian-hpc-meta (2.21sci10) scibian10; urgency=medium
 
   * New release for scibian10
