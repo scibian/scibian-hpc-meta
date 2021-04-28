@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.23sci9) scibian9; urgency=medium
+
+  * force dependance to puppet5
+
+ -- Kwame AMEDODJI <kwame-externe.amedodji@edf.fr>  Wed, 28 Apr 2021 09:51:16 +0200
+
 scibian-hpc-meta (2.22sci9) scibian9; urgency=medium
 
   * Add slurm spank and scripts packages to -container
