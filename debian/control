@@ -62,7 +62,7 @@ Depends:
  ntpdate,
  pciutils,
  pm-utils,
- puppet,
+ puppet5,
  pstack,
  quota,
  rsync,
