@@ -1,3 +1,12 @@
+scibian-hpc-meta (11.0) scibian11; urgency=medium
+
+  * Bump d/compat to 11
+  * Bump copyright year to 2022
+  * Port deps to scibian11
+  * Remove SPANK plugins in container meta-package
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 06 Jan 2022 14:05:12 +0100
+
 scibian-hpc-meta (2.22sci10) scibian10; urgency=medium
 
   * Add slurm packages to -container
