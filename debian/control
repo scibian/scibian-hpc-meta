@@ -428,8 +428,6 @@ Depends:
  scibian-hpc-base (= ${source:Version}),
  slurm-client,
  slurm-llnl-generic-scripts-plugin,
- slurm-wlm-spank-plugin-oom-score-adj,
- slurm-wlm-spank-plugin-private-tmpdir
 
 Package: scibian-hpc-graphical
 Architecture: all
