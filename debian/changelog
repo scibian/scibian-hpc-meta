@@ -1,3 +1,9 @@
+scibian-hpc-meta (11.1) scibian11; urgency=medium
+
+  * container: add scibian slurm and ssh wrappers
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 12 May 2022 14:50:35 +0200
+
 scibian-hpc-meta (11.0) scibian11; urgency=medium
 
   * Bump d/compat to 11
