@@ -426,6 +426,8 @@ Depends:
  scibian-hpc-devel (= ${source:Version}),
  scibian-hpc-doc (= ${source:Version}),
  scibian-hpc-base (= ${source:Version}),
+ scibian-singularity-slurm,
+ scibian-singularity-ssh,
  slurm-client,
  slurm-llnl-generic-scripts-plugin,
 
