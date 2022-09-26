@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.24sci9) scibian9; urgency=medium
+
+  * Release version 2.24sci9
+
+ -- Kwame Amedodji <kwame-externe.amedodji@edf.fr>  Mon, 26 Sep 2022 09:55:28 +0200
+
 scibian-hpc-meta (2.23sci9) scibian9; urgency=medium
 
   * admin: del dependence to packaged puppet modules
