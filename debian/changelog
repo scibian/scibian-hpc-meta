@@ -1,3 +1,9 @@
+scibian-hpc-meta (2.23sci10) scibian10; urgency=medium
+
+  * admin: del dependence to packaged puppet modules
+
+ -- Kwame Amedodji <kwame-externe.amedodji@edf.fr>  Mon, 26 Sep 2022 07:51:15 +0200
+
 scibian-hpc-meta (2.22sci10) scibian10; urgency=medium
 
   * Add slurm packages to -container
