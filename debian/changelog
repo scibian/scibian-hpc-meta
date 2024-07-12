@@ -1,3 +1,9 @@
+scibian-hpc-meta (9.0sci9) scibian9; urgency=medium
+
+  * container: add scibian-singularity-ssh & slurm
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Fri, 12 Jul 2024 15:50:36 +0200
+
 scibian-hpc-meta (2.24sci9) scibian9; urgency=medium
 
   * Release version 2.24sci9
