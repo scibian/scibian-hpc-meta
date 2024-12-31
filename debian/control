@@ -106,7 +106,7 @@ Depends:
  libgl2ps1.4,
  libglapi-mesa,
  libglu1-mesa,
- libgsl25,
+ libgsl27,
  libhdf5-103,
  libhdf5-openmpi-103,
  libhwloc15,
@@ -133,7 +133,7 @@ Depends:
  libqwt-qt5-6,
  libqwtmathml-qt5-6,
  libscalapack-openmpi2.2,
- libtbb2,
+ libtbb12,
  libtool
 
 Package: scibian-hpc-devel
@@ -245,7 +245,6 @@ Depends:
  python3-doc,
  python-pyqt5.qwt-doc,
  r-base-html,
- scalapack-doc,
  slurm-wlm-doc,
  texlive-lang-french
 
