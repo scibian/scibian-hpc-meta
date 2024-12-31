@@ -1,3 +1,9 @@
+scibian-hpc-meta (12.1) scibian12; urgency=medium
+
+  * scibian-hpc-doc,scibian-hpc-libs: Update pkgs
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Tue, 31 Dec 2024 11:42:57 +0100
+
 scibian-hpc-meta (12.0) scibian12; urgency=medium
 
   * Initial Scibian12 release
