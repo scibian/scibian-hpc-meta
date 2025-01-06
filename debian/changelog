@@ -1,3 +1,9 @@
+scibian-hpc-meta (12.2) scibian12; urgency=medium
+
+  * container: del scibian-container-*
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Mon, 06 Jan 2025 14:34:52 +0100
+
 scibian-hpc-meta (12.1) scibian12; urgency=medium
 
   * scibian-hpc-doc,scibian-hpc-libs: Update pkgs
