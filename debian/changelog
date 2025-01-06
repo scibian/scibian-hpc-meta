@@ -1,3 +1,9 @@
+scibian-hpc-meta (11.3) scibian11; urgency=medium
+
+  * container: del scibian-container-*
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Mon, 06 Jan 2025 14:43:42 +0100
+
 scibian-hpc-meta (11.2) scibian11; urgency=medium
 
   * admin: del dependence to packaged puppet modules
