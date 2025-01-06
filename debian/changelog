@@ -1,3 +1,9 @@
+scibian-hpc-meta (10.1) scibian10; urgency=medium
+
+  * container: del scibian-container-*
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Mon, 06 Jan 2025 14:46:21 +0100
+
 scibian-hpc-meta (10.0sci10) scibian10; urgency=medium
 
   * container: add scibian-singularity-ssh & slurm
