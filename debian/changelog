@@ -1,3 +1,9 @@
+scibian-hpc-meta (10.2) scibian10; urgency=medium
+
+  * container,compute: Remove non universal plugins
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Tue, 14 Jan 2025 11:09:43 +0100
+
 scibian-hpc-meta (10.1) scibian10; urgency=medium
 
   * container: del scibian-container-*
