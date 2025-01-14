@@ -331,8 +331,6 @@ Depends:
  munge,
  slurm-client,
  slurm-llnl-generic-scripts-plugin,
- slurm-wlm-spank-plugin-oom-score-adj,
- slurm-wlm-spank-plugin-private-tmpdir,
  slurmd,
  warewulf-nhc,
  slurm-unkstep-program
@@ -437,10 +435,7 @@ Depends:
  scibian-hpc-devel (= ${source:Version}),
  scibian-hpc-doc (= ${source:Version}),
  scibian-hpc-base (= ${source:Version}),
- slurm-client,
- slurm-llnl-generic-scripts-plugin,
- slurm-wlm-spank-plugin-oom-score-adj,
- slurm-wlm-spank-plugin-private-tmpdir
+ slurm-client
 
 Package: scibian-hpc-graphical
 Architecture: all
